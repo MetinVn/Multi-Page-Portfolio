@@ -147,12 +147,12 @@ const Navbar = () => {
               </Link>
             )}
             {user?.displayName ? (
-              <a
+              <Link
                 className=" text-white text-center text-xs p-3 px-3 sm:px-8  items-center border-2 border-white rounded-md  hover:bg-white hover:text-black duration-300"
-                href="/Multi-Page-Portfolio/account"
+                to="/Multi-Page-Portfolio/account"
               >
                 Account
-              </a>
+              </Link>
             ) : (
               ""
             )}
