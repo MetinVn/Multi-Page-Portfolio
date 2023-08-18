@@ -18,6 +18,7 @@ const Projects = () => {
           <div className="flex flex-col text-white text-[15px] min-w-[200px] md:w-full sm:text-[18px] md:text-lg">
             <div className="flex flex-row group w-full justify-center items-center">
               <img
+                loading="lazy"
                 src={Right}
                 className="h-4 -translate-x-1 group-hover:translate-x-0 duration-200"
               />
@@ -29,6 +30,7 @@ const Projects = () => {
                 Movies App
               </a>
               <img
+                loading="lazy"
                 src={Link}
                 className="h-5 scale-0 translate-y-[0%] group-hover:scale-[100%] group-hover:translate-y-[10%] duration-300"
               />
@@ -45,12 +47,14 @@ const Projects = () => {
         </div>
         <div className="flex flex-col items-center p-10 md:flex-row gap-10 w-full">
           <img
+            loading="lazy"
             src={Recipe}
             className="max-w-[500px] min-w-[200px] w-full rounded-lg object-cover object-center"
           />
           <div className="flex flex-col text-start text-white text-[15px] min-w-[200px] md:w-full sm:text-[18px] md:text-lg">
             <div className="flex flex-row group w-full justify-center items-center">
               <img
+                loading="lazy"
                 src={Right}
                 className="h-4 -translate-x-1 group-hover:translate-x-0 duration-200"
               />
@@ -62,6 +66,7 @@ const Projects = () => {
                 Recipe App
               </a>
               <img
+                loading="lazy"
                 src={Link}
                 className="h-5 scale-0 translate-y-[0%] group-hover:scale-[100%] group-hover:translate-y-[10%] duration-300"
               />
@@ -78,12 +83,14 @@ const Projects = () => {
         </div>
         <div className="flex flex-col items-center p-10 md:flex-row gap-10 w-full">
           <img
+            loading="lazy"
             src={Todo}
             className="max-w-[500px] min-w-[200px] w-full rounded-lg object-cover object-center"
           />
           <div className="flex flex-col text-start text-white text-[15px] min-w-[200px] md:w-full sm:text-[18px] md:text-lg">
             <div className="flex flex-row group w-full justify-center items-center">
               <img
+                loading="lazy"
                 src={Right}
                 className="h-4 -translate-x-1 group-hover:translate-x-0 duration-200"
               />
@@ -95,6 +102,7 @@ const Projects = () => {
                 Todo App
               </a>
               <img
+                loading="lazy"
                 src={Link}
                 className="h-5 scale-0 translate-y-[0%] group-hover:scale-[100%] group-hover:translate-y-[10%] duration-300"
               />
@@ -109,12 +117,14 @@ const Projects = () => {
         </div>
         <div className="flex flex-col items-center p-10 md:flex-row gap-10 w-full">
           <img
+            loading="lazy"
             src={Auth}
             className="max-w-[500px] min-w-[200px] w-full rounded-lg object-cover object-center"
           />
           <div className="flex flex-col text-start text-white text-[15px] min-w-[200px] md:w-full sm:text-[18px] md:text-lg">
             <div className="flex flex-row group w-full items-center justify-center">
               <img
+                loading="lazy"
                 src={Right}
                 className="h-4 -translate-x-1 group-hover:translate-x-0 duration-200"
               />
@@ -126,6 +136,7 @@ const Projects = () => {
                 Sign in & Authentication
               </a>
               <img
+                loading="lazy"
                 src={Link}
                 className="h-5 scale-0 translate-y-[0%] group-hover:scale-[100%] group-hover:translate-y-[10%] duration-300"
               />

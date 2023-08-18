@@ -88,6 +88,7 @@ const Navbar = () => {
             Explore...
           </a>
           <img
+            loading="lazy"
             src={Down}
             className="h-5 scale-0 translate-y-[-40%] group-hover:scale-[100%] group-hover:translate-y-[10%] duration-300"
           />
@@ -99,11 +100,13 @@ const Navbar = () => {
         <button onClick={handleNavbar}>
           {navbar ? (
             <img
+              loading="lazy"
               className="md:hidden absolute top-5 right-0 h-5 m-2 z-10"
               src={Right}
             />
           ) : (
             <img
+              loading="lazy"
               className="md:hidden absolute top-5 right-0 h-5 m-2 z-10"
               src={Left}
             />

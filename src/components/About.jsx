@@ -11,6 +11,7 @@ const Home = () => {
         <div className="font-[Bricolage Grotesque] flex flex-col md:flex-row gap-2 max-w-[1250px] px-5 py-10 w-full mx-auto">
           <div>
             <img
+              loading="lazy"
               src={person}
               className="rounded-md object-cover object-center h-full w-[800px] shadow-lg shadow-black"
             />
@@ -42,6 +43,7 @@ const Home = () => {
             Explore my work
           </a>
           <img
+            loading="lazy"
             src={Down}
             className="h-5 scale-0 translate-y-[-40%] group-hover:scale-[100%] group-hover:translate-y-[10%] duration-300"
           />
