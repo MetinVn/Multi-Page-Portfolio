@@ -67,12 +67,12 @@ const Navbar = () => {
                 </Link>
               )}
               {user?.displayName ? (
-                <a
+                <Link
                   className="border-2 rounded-md px-4 py-2 text-white border-green-400 bg-trasnparent hover:bg-green-400 duration-300"
                   href="/Multi-Page-Portfolio/account"
                 >
                   Account
-                </a>
+                </Link>
               ) : (
                 ""
               )}
