@@ -15,7 +15,7 @@ const Signin = () => {
 
   useEffect(() => {
     if (user != null) {
-      navigate("/Multi-Page-Portfolio/account");
+      navigate("/account");
     }
   }, [user]);
   return (
