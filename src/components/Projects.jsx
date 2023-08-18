@@ -102,7 +102,7 @@ const Projects = () => {
             <ul className="list-disc">
               <li>Manage your todos</li>
               <li>Access anytime from Firebase Database</li>
-              <li>Built with ReactJS & TailwindCSS</li>
+              <li>CRUD Functionality</li>
               <li>Desktop & Mobile Responsive</li>
             </ul>
           </div>
