@@ -141,7 +141,7 @@ const Navbar = () => {
             ) : (
               <Link
                 className="text-white text-center text-xs p-3 px-3 sm:px-8 border-2 border-white rounded-md  hover:bg-white hover:text-black duration-300"
-                to="/signin"
+                to="/Multi-Page-Portfolio/signin"
               >
                 Sign in
               </Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
             {user?.displayName ? (
               <a
                 className=" text-white text-center text-xs p-3 px-3 sm:px-8  items-center border-2 border-white rounded-md  hover:bg-white hover:text-black duration-300"
-                href="/account"
+                href="/Multi-Page-Portfolio/account"
               >
                 Account
               </a>
