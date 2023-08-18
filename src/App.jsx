@@ -9,14 +9,21 @@ function App() {
   return (
     <>
       <AuthContextProvider>
-      <Routes>
-        <Route path="/" element={<Navbar/>}></Route>
-        <Route path='/signin' element={<Signin/>}></Route>
-        <Route path='/account' element={<Protected><Account/></Protected>}></Route>
-      </Routes>
+        <Routes>
+          <Route path="/*" element={<Navbar />}></Route>
+          <Route path="/signin" element={<Signin />}></Route>
+          <Route
+            path="/account"
+            element={
+              <Protected>
+                <Account />
+              </Protected>
+            }
+          ></Route>
+        </Routes>
       </AuthContextProvider>
     </>
-  )
+  );
 }
 
 export default App

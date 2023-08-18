@@ -20,7 +20,7 @@ const Account = () => {
       <div className="flex flex-col p-10 w-full gap-5 sm:flex-row justify-around text-center items-center font-[Poppins]">
         <a
           className="px-5 text-xs sm:text-md py-2 border-2 rounded-md text-white hover:bg-white hover:text-black duration-300"
-          href="/"
+          href="/Multi-Page-Portfolio/"
         >
           Home
         </a>

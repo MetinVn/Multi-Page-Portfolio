@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="fixed hidden md:flex top-0 h-20 z-10 w-full mx-auto p-10 flex-row items-center justify-between font-[Poppins]">
           <div>
             <Link
-              to="/"
+              to="/Multi-Page-Portfolio/"
               id="animate1"
               className="text-xs sm:text-md md:text-2xl text-white select-none"
             >
@@ -61,15 +61,15 @@ const Navbar = () => {
               ) : (
                 <Link
                   className="border-2 border-black text-white bg-black  rounded-md px-8 py-2 hover:bg-transparent  duration-300"
-                  to="/signin"
+                  to="/Multi-Page-Portfolio/signin"
                 >
                   Sign in
                 </Link>
               )}
               {user?.displayName ? (
                 <a
-                  className="border-2 rounded-md px-4 py-2 text-white border-green-400 bg-trasnparent hover:bg-green-400 hover:text-green-950 duration-300"
-                  href="/account"
+                  className="border-2 rounded-md px-4 py-2 text-white border-green-400 bg-trasnparent hover:bg-green-400 duration-300"
+                  href="/Multi-Page-Portfolio/account"
                 >
                   Account
                 </a>
@@ -161,7 +161,7 @@ const Navbar = () => {
       </div>
       <About />
       <Projects />
-      <Contact/>
+      <Contact />
     </>
   );
 };

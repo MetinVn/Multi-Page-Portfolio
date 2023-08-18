@@ -18,7 +18,7 @@ const Home = () => {
           <div className="border-2 flex flex-col leading-4 sm:leading-6 md:leading-10 text-[13px] sm:text-sm sm:p-5 md:text-xl justify-between border-blue-300 p-3 md:p-10 backdrop-blur-sm rounded-md shadow-lg shadow-blue-300">
             <h1 className="text-start text-white md:text-3xl">
               Hi! I'm Metin,
-              <br />{" "}
+              <br />
               <span className="text-[#48cae4] md:text-2xl">
                 Frontend Developer
               </span>
