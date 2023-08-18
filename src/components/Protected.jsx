@@ -5,7 +5,7 @@ import { UserAuth } from '../context/Protect'
 const Protected = ({children}) => {
     const {user} = UserAuth()
     if(!user){
-        return <Navigate to="/Multi-Page-Portfolio/" />;
+        return <Navigate to="/" />;
     }
 
   return (
